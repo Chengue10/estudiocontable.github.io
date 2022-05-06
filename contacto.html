@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="main.css">    
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <div id="container-mobile">
+    <nav>        
+        <ul id="navbar"> 
+            <li><a class="link" href="/index.html">Inicio</a></li>
+            <li><a href="estudio.html">Estudio</a>
+            <li><a class="link" href="servicios.html">Servicios</a></li>
+            <li><a href="link-interes.html"> Links de Interes</a><li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul> 
+      </nav>
+    </div>
+    
+  <nav class="container-superior">
+
+    <div id="container">
+      <div id="logo">
+              <img src="public/Logo.png" width="100" height="100" />
+      </div>   
+          <div id="nav-container" width="100" height="100">
+              <ul id="navbar"> 
+                  <li><a class="link" href="index.html">Inicio</a></li>
+                  <li><a href="estudio.html">Estudio</a>
+                  <li><a class="link" href="servicios.html">Servicios</a></li>
+                  <li><a href="link-interes.html"> Links de Interes</a><li>
+                  <li><a href="contacto.html">Contacto</a></li>
+              </ul>    
+          </div>
+         
+
+      
+  </div>
+
+</nav> 
+
+<header class="index">
+  <div class="letras">
+  <p class="links">CONTACTO</P>
+  </div>
+</header>
+    
+
+       <!-- formulario de contacto en html y css -->  
+
+       
+
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3 class="form-title">Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+    </form>
+
+    <footer class="footer-bg">
+      <p><a href="#">Facebook</a> <a href="#">Instagram</a> <a href="#">Twitter</a> <a href="#">WhatsApp</a> </p>
+      <p>Desarrollado por Federico Morales | 2022</p>
+  </footer>
+
+</body>
+</html>
