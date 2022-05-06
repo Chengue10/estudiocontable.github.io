@@ -119,7 +119,7 @@ div#nav-container:after {
     
   }
   .index{
-    background-image: url("../ProyectoContable/public/imagencontabilidad.jpg");
+    background-image: url("public/imagencontabilidad.jpg");
     padding: 100px;
     text-align: center;
     
