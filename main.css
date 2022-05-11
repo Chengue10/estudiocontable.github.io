@@ -272,6 +272,7 @@ body {
     
     display: flex;
     justify-content: center;
+    ;
     border: #00d4ff;
     font-size: 36px; 
     padding-bottom: 50px;
@@ -375,7 +376,7 @@ body {
   margin-left: .75rem;
   }
 
-  .row {
+  .gx-15 {
 
     --bs-gutter-x: 15.0rem;;
     margin-left: 0px;
