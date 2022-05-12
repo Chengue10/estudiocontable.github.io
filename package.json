@@ -1,0 +1,25 @@
+{
+  "name": "proyectocontable",
+  "version": "1.0.0",
+  "description": "Estudio Contable Luis Morales\r style=\"border: solid 2px #04AA6D \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/maincss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chengue10/estudiocontable.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chengue10/estudiocontable.github.io/issues"
+  },
+  "homepage": "https://github.com/Chengue10/estudiocontable.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
