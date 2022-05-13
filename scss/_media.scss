@@ -1,0 +1,69 @@
+ /* MEDIA QUERIES */
+  
+ @media screen and (min-width: 768px) {
+  
+    
+    
+    
+    
+}
+
+@media screen and (max-width: 768px)  {
+
+  #container {
+    display: none;
+    margin: auto;
+    font-size: 8px;
+    
+
+}
+
+.letras {
+margin-left: -50px;
+  width: 150%;
+}
+
+
+#container-mobile {
+  display: block;
+}
+
+ul{
+  display: none;
+}
+
+input:checked  ~ ul{
+  display:block;
+}
+
+
+
+ul#navbar {
+  /* margin: 20px; */
+  margin-left: 15px;
+  /* padding: 0; */
+  list-style: none;
+  display: inline-block;
+  /* font-size: 11px; */
+  vertical-align: bottom;
+}
+
+ul#navbar > li > a {
+  font-size: 13px;
+}
+
+ /* servicios */
+
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+    
+    background-color: rgb(192, 189, 189);
+    padding: 10px;
+ 
+}
+
+}
