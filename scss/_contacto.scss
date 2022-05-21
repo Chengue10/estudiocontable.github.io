@@ -122,12 +122,12 @@
   }
   
   
-  .formulario input:focus{
+  .formulario input{
     outline:0;
     border: 1px solid #97d848;
   
   
-  &focus{
+  &:focus{
     outline:0;
     border: 1px solid #97d848;
 
@@ -135,11 +135,11 @@
 
     }
   
-  .formulario textarea:focus{
+  .formulario textarea{
     outline:0;
     border: 1px solid #97d848;
   
-    &focus{
+    &:focus{
         outline:0;
         border: 1px solid #97d848;
     
