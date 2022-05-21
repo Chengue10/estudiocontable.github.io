@@ -211,7 +211,8 @@ h1 {
     margin: auto;
     font-size: 8px; }
   .letras {
-    margin-left: -50px;
+    display: none;
+    margin-left: -100px;
     width: 150%; }
   #container-mobile {
     display: block; }
@@ -271,7 +272,7 @@ header {
 .letras {
   background-color: #0c0c0c;
   opacity: 0.5;
-  margin-left: -150px;
+  margin-left: -100px;
   width: 40%;
   position: static; }
 
