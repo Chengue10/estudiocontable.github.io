@@ -47,25 +47,10 @@ body {
     text-align: center;
     color: black;
     border-right: 1px black solid;
+    &:hover {
+      background-color: #6e6e6e33;
+    }
   }
-  ul#navbar {
-    background-color: #6e6e6e33;
-  
-    li {
-        background-color: #6e6e6e33; 
-    }
-
-    a{
-        background-color: #6e6e6e33;
-
-    }
-
-    &hover {
-
-        background-color: #6e6e6e33;
-    }
-
-}
 
 
   ul#navbar{
