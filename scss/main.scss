@@ -3,9 +3,12 @@
     @import "footer";
     @import "contacto";
     @import "media";
+   
 
 
+      // 
 
+    
 
 
   
@@ -176,7 +179,7 @@
       display: flex;
       justify-content: center;
       ;
-      border: #00d4ff;
+      border: $color-primary;
       font-size: 36px; 
       padding-bottom: 50px;
       color:#000000;   
@@ -286,6 +289,9 @@
       margin-right: 0px;
       
     }
+
+
+   
   
     
   

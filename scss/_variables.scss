@@ -1,2 +1,20 @@
 
-$color-primary: #04AA6D
+$color-primary: #04AA6D;  
+
+$redes: ( 
+        twitter: #55acee,
+        facebook:  #3a5795,
+        Instagram: #C25E30,
+        kiricocho: #033d28
+); 
+
+
+@each $red, $color in $redes {
+   .colorete-#{$red} {
+       color: $color;
+   }
+}
+
+
+
+

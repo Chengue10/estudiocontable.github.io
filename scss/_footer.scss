@@ -1,5 +1,7 @@
  /* el famoso Footer*/
   
+/* Extend*/
+
  footer {
     color: white; }
 
@@ -11,11 +13,11 @@
     font-size: 16px;
     background: #020024;
     background: linear-gradient(90deg, #020024 0%, #093576 21%, #090979 37%, #00d4ff 100%);
-    color: white;
+    @extend footer;
     text-align: center;
     text-size-adjust: 2em;
     
   }
 
 .footer-bg p a {
-    color: white; }
+  @extend footer; }

@@ -1,3 +1,15 @@
+.colorete-twitter {
+  color: #55acee; }
+
+.colorete-facebook {
+  color: #3a5795; }
+
+.colorete-Instagram {
+  color: #C25E30; }
+
+.colorete-kiricocho {
+  color: #033d28; }
+
 /* Navegacion */
 body {
   margin: 0;
@@ -84,7 +96,8 @@ div#nav-container:after {
   top: 0%; }
 
 /* el famoso Footer*/
-footer {
+/* Extend*/
+footer, .footer-bg, .footer-bg p a {
   color: white; }
 
 .footer-bg {
@@ -94,22 +107,20 @@ footer {
   font-size: 16px;
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, #093576 21%, #090979 37%, #00d4ff 100%);
-  color: white;
   text-align: center;
   text-size-adjust: 2em; }
 
-.footer-bg p a {
-  color: white; }
-
+/* Mixin*/
 /* Contacto-formulario */
 body {
   height: 100%;
   font-family: 'Noto Sans', sans-serif;
   background-color: #faf5f9; }
 
+/* agregando mixin */
 .contact_form {
-  width: 460px;
   height: auto;
+  width: 460px;
   margin: 80px auto;
   border-radius: 10px;
   padding-top: 30px;
@@ -233,74 +244,6 @@ h1 {
     background-color: #c0bdbd;
     padding: 10px; } }
 
-/* Navegacion */
-body {
-  margin: 0;
-  padding: 0; }
-
-#container-mobile {
-  display: none; }
-
-#container {
-  margin: auto;
-  width: 960px;
-  margin-right: 70px; }
-
-#nav-container {
-  margin: 0;
-  margin-right: 40px;
-  width: 750px;
-  float: right;
-  height: 100px; }
-
-ul#navbar {
-  margin: 20px;
-  margin-left: -50px;
-  padding: 0;
-  list-style: none;
-  display: inline-block;
-  vertical-align: bottom; }
-
-ul#navbar:after {
-  content: '';
-  display: table;
-  clear: both; }
-
-ul#navbar > li {
-  display: inline;
-  vertical-align: bottom;
-  float: left; }
-
-ul#navbar > li > a {
-  padding: 5px;
-  display: block;
-  text-decoration: none;
-  font-size: 25px;
-  text-align: center;
-  color: black;
-  border-right: 1px black solid; }
-
-ul#navbar > li > a:hover {
-  background-color: #6e6e6e33; }
-
-ul#navbar > li > a > p {
-  vertical-align: bottom; }
-
-#logo {
-  display: inline-block; }
-
-div#nav-container:after {
-  content: '';
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle; }
-
-.container-superior {
-  background-color: white;
-  border: solid 2px #f8f4f4;
-  position: sticky;
-  top: 0%; }
-
 /* IMAGEN INDEX */
 header {
   height: 150px;
@@ -401,24 +344,6 @@ ul li {
   margin-inline-start: 0px;
   margin-inline-end: 0px; }
 
-/* el famoso Footer*/
-footer {
-  color: white; }
-
-.footer-bg {
-  display: block;
-  justify-content: block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #093576 21%, #090979 37%, #00d4ff 100%);
-  color: white;
-  text-align: center;
-  text-size-adjust: 2em; }
-
-.footer-bg p a {
-  color: white; }
-
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px !important;
@@ -428,7 +353,7 @@ body {
 .tuki {
   display: flex;
   justify-content: center;
-  border: #00d4ff;
+  border: #04AA6D;
   font-size: 36px;
   padding-bottom: 50px;
   color: #000000;
