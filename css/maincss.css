@@ -197,17 +197,17 @@ h1 {
 ::-webkit-textarea-placeholder {
   color: #a8a8a8; }
 
-.formulario input:focus {
+.formulario input {
   outline: 0;
   border: 1px solid #97d848; }
-  .formulario input:focusfocus {
+  .formulario input:focus {
     outline: 0;
     border: 1px solid #97d848; }
 
-.formulario textarea:focus {
+.formulario textarea {
   outline: 0;
   border: 1px solid #97d848; }
-  .formulario textarea:focusfocus {
+  .formulario textarea:focus {
     outline: 0;
     border: 1px solid #97d848; }
 
