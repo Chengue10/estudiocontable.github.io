@@ -17,7 +17,11 @@
     text-align: center;
     text-size-adjust: 2em;
     
-  }
+}
 
 .footer-bg p a {
   @extend footer; }
+
+.copyright { 
+    background-color: rgba(0, 0, 0, 0.2);
+}

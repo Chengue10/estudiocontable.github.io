@@ -10,6 +10,24 @@
 .colorete-kiricocho {
   color: #033d28; }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 /* Navegacion */
 body {
   margin: 0;
@@ -86,7 +104,8 @@ div#nav-container:after {
   background-color: white;
   border: solid 2px #f8f4f4;
   position: sticky;
-  top: 0%; }
+  top: 0%;
+  z-index: 99999; }
 
 /* el famoso Footer*/
 /* Extend*/
@@ -102,6 +121,9 @@ footer, .footer-bg, .footer-bg p a {
   background: linear-gradient(90deg, #020024 0%, #093576 21%, #090979 37%, #00d4ff 100%);
   text-align: center;
   text-size-adjust: 2em; }
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2); }
 
 /* Mixin*/
 /* Contacto-formulario */
@@ -358,9 +380,22 @@ body {
 .ellos {
   background-color: #04AA6D;
   border: #04AA6D;
-  border-style: solid; }
+  border-style: solid;
+  border: solid 2px #04AA6D; }
 
 /* Aplicando grid a Link interes*/
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn 1s ease-in 0s 1 normal forwards;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn 1s ease-in 0s 1 normal forwards;
+  animation: fadeIn 1s ease-in 0s 1 normal forwards; }
+  .fade-in .one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s; }
+
 .grid {
   position: relative;
   display: grid;

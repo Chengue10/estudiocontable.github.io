@@ -1,26 +1,16 @@
  /* MEDIA QUERIES */
   
- @media screen and (min-width: 768px) {
-  
-    
-    
-    
-    
-}
-
 @media screen and (max-width: 768px)  {
 
-  #container {
-    display: none;
-    margin: auto;
-    font-size: 8px;
-    
-
+#container {
+  display: none;
+  margin: auto;
+  font-size: 8px;
 }
 
 .letras {
   display: none;
-margin-left: -100px;
+  margin-left: -100px;
   width: 150%;
 }
 

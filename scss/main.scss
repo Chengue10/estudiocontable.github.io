@@ -195,10 +195,26 @@
     background-color: $color-primary;
     border: $color-primary;
     border-style: solid;
+    border: solid 2px $color-primary;
   }
   
   /* Aplicando grid a Link interes*/
-  
+
+  .fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn 1s ease-in 0s 1 normal forwards;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn 1s ease-in 0s 1 normal forwards;
+    animation:fadeIn 1s ease-in 0s 1 normal forwards;
+  .one {
+    -webkit-animation-delay: 0.7s ;
+    -moz-animation-delay: 0.7s ;
+    animation-delay: 0.7s;
+    }
+}
+
+
+
+
   .grid {
     position: relative;
     display: grid;
