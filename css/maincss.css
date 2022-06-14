@@ -227,7 +227,7 @@ h1 {
     border: 1px solid #97d848; }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   #container {
     display: none;
     margin: auto;
@@ -251,14 +251,7 @@ h1 {
     /* font-size: 11px; */
     vertical-align: bottom; }
   ul#navbar > li > a {
-    font-size: 13px; }
-  /* servicios */
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-row-gap: 20px;
-    background-color: #c0bdbd;
-    padding: 10px; } }
+    font-size: 13px; } }
 
 /* IMAGEN INDEX */
 header {

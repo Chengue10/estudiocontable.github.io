@@ -1,6 +1,6 @@
  /* MEDIA QUERIES */
   
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 760px)  {
 
 #container {
   display: none;
@@ -43,18 +43,5 @@ ul#navbar > li > a {
   font-size: 13px;
 }
 
- /* servicios */
-
-
-.grid-container {
-
-    display: grid;
-    grid-template-columns: auto;
-    grid-row-gap: 20px;
-    
-    background-color: rgb(192, 189, 189);
-    padding: 10px;
- 
-}
 
 }
